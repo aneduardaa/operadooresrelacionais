@@ -1,24 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 
 main(){
 
-int idade, anostrabalhados;
+int numero;
 
-printf("digite sua idade\n");
-scanf("%d",&idade);
+printf("Digite um numero\n");
+scanf("%d", &numero);
 
-printf("digite os anos trabalhados\n");
-scanf("%d", &anostrabalhados);
+if(numero % 2 == 0){
 
-if(idade >= 60){
-    printf("pode se aposentar\n");
-
-} else if (anostrabalhados >= 25 && idade >= 60){
-    printf("pode se aposentar\n");
-
-}else{
-    printf("nao pode se aposentar\n");
-    
-}
-
+    printf("o resultado é pa\nr");
 }
