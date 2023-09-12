@@ -11,4 +11,9 @@ scanf("%d", &numero);
 if(numero % 2 == 0){
 
     printf("o resultado é pa\nr");
+}else{
+    printf("o resultado e impar");
+}
+
+
 }
